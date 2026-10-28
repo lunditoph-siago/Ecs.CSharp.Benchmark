@@ -2,7 +2,7 @@
   
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <OutputType>Exe</OutputType>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
@@ -53,6 +53,8 @@
     <PackageReference Include="RelEcs" Version="1.5.1" />
 
     <PackageReference Include="Scellecs.Morpeh" Version="2023.1.0" />
+
+    <PackageReference Include="Sia" Version="2.1.5" />
 
     <PackageReference Include="Svelto.ECS" Version="3.3.2" />
     <PackageReference Include="Svelto.Common" Version="3.3.2" />
